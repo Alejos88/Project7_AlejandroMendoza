@@ -1,0 +1,16 @@
+const Card = ({ruta, titulo, descripcion}) => {
+  return (
+  <>
+    <div className="card" style={{width: "18rem"}}>
+       <img src= {ruta} className="card-img-top" alt="..." title="Card tittle"/>
+       <div className="card-body">
+       <h5 className="card-title">{titulo}</h5>
+       <p className="card-text">{descripcion}</p>
+        <a href="#" className="btn btn-primary">Ingresar</a>
+    </div>
+    </div>
+  </>
+  )
+}
+
+export default Card;

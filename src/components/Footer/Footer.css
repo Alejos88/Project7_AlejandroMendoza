@@ -1,0 +1,25 @@
+.piedepagina {
+   display: flex;
+   padding: 10px 20px;
+   box-shadow: 20px 20px 60px  white, -20px -20px 60px blue;
+   justify-content: space-between;
+}
+
+.desarrollo {
+    display: flex;
+}
+
+h6 {
+    margin: 0;
+    color: rgba(88, 12, 35, 0.733);
+}
+
+.iconos {
+    display: flex;
+    gap: 20px;
+}
+
+.iconos {
+    width: 90px;
+    height: 10px;
+}
